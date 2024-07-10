@@ -6,6 +6,6 @@
  */
 export const itemIamge = (element) => {
   const image = new Image(0, 50);
-  image.src = `../img/item/${element}.png`;
+  image.src = `../img/item/${element.imageName}.png`;
   return image;
 };

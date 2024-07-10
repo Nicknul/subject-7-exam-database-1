@@ -11,7 +11,7 @@ export const startMoney = (xhr: XMLHttpRequest): void => {
       // nowMoney가 null인 경우
       console.error('nowMoney element is null');
     }
-  } catch (e) {
-    console.error('Failed to parse response or update nowMoney', e);
+  } catch (error) {
+    console.error('Failed to parse response or update nowMoney', error);
   }
 };

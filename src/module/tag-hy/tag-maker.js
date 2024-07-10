@@ -4,6 +4,6 @@
  * @param {*} tagName 생성할 태그 이름
  * @returns 문서에 태그 생성
  */
-export const createTags = (tagName) => {
+export const tagMaker = (tagName) => {
   return document.createElement(tagName);
 };

@@ -1,5 +1,6 @@
-console.log('check');
+import { itemImg } from './module/tag-hy/item.js';
 
-import { a } from './module/tag-hy/img-tag.js';
+export const itemContainer = document.querySelector('.item-container');
+itemImg(itemContainer);
 
-console.log(a);
+console.log(itemContainer);
